@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="ru">
+  <head>
+    <meta charset="UTF-8" />
+    <link rel="stylesheet" href="stylesheet.css" />
+
+    <title>Road to the freedom!</title>
+    <meta
+      name="viewport"
+      content="width=device-width, initia-scale=1.0, maximum-scale=1.0, use-scaleable=0"
+    />
+  </head>
+
+  <body>
+    <div class="wrapper">
+      <div class="header">
+        <h1>RTTF</h1>
+      </div>
+      <div class="content-wrapper">
+        <div class="search-wrapper">
+          <span>Кількість елементів на формі:</span>
+
+          <select id="countOfNewsBlocks" name="countOfNewsBlocks">
+            <option value="3">3</option>
+            <option value="6">6</option>
+            <option value="9">9</option>
+          </select>
+        </div>
+        <div id="content-block" class="content">
+          <!-- Структура блоку, який генерується кодом
+          <div class="news-block">
+            <img class="news-block__image" src="/images/news_1.jpg" />
+            <h1 class="news-block__tittle">
+              <a href="#">Call of Duty®: Infinite Warfare</a>
+            </h1>
+          </div>-->
+        </div>
+        <div class="content-footer">
+          <button id="prev-page"><</button>
+          <span id="page-number">1</span>
+          <button id="next-page">></button>
+        </div>
+      </div>
+    </div>
+    <script src="https://code.jquery.com/jquery-3.5.1.min.js"></script>
+    <script src="js.js"></script>
+  </body>
+</html>
